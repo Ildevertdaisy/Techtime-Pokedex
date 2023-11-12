@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Index - Pokedex app</title>
+    <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+             <div class="logo-container" id="logo-container">
+                  <img src="./assets/logo.png" alt="Pokemon logo">
+             </div>
+             <div class="pokemon-loader" id="pokemon-loader" hidden>
+                <img src="./assets/pokemon-loader.gif" alt="Rand-pokemon-reply">
+              </div>
+        </header>
+        <main>
+            <div class="displayer">
+                <div class="poke-image-reply-container" id="poke-image-reply-container">
+                    <img src="./assets/pokemon-reply-1.gif" id="random-image-viewer" alt="Rand-pokemon-reply">
+               </div>
+               <span class="loader" id="loader" hidden></span>
+               <div class="random-card">
+                    <!-- <div class="poke-image-container">
+                        <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/1.png" alt="" id="random-pokemon-image">
+                    </div>
+                    <div class="poke-features">
+                        <div class="poke-sprite-container"><img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/1.png" alt="" id="poke-sprite-image" title=""></div>
+                        <div class="poke-name-section">Name : <span id="poke-name">name</span></div>
+                        <div class="poke-hp-section">HP : <span id="poke-hp">hp</span></div>
+                        <div class="poke-speed-section">Speed : <span id="poke-speed">speed</span></div>
+                        <div class="poke-types-section">Types: <img src="https://static.wikia.nocookie.net/pokemongo/images/0/05/Poison.png" alt="" title=""><img src="https://static.wikia.nocookie.net/pokemongo/images/c/c5/Grass.png" alt="" title=""></div>
+                    </div> -->
+            </div>
+            </div>
+            <button class="load-btn">Pokemon go</button>
+        </main>
+    </div>
+    <div class="mobile-fallback-container"></div>
+    <script src="./script.js"></script>
+</body>
+</html>
